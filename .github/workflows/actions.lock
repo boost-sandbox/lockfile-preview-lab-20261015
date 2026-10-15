@@ -3,9 +3,13 @@
 # Docs: https://gh.io/actions-lockfile
 version: 'v0.0.3'
 workflows:
+    '.github/workflows/pr.yml':
+        - 'boost-sandbox/lockfile-preview-actions-20261015@main'
     '.github/workflows/probe.yml':
         - 'boost-sandbox/lockfile-preview-actions-20261015@main'
         - 'boost-sandbox/lockfile-preview-actions-20261015@moving'
+    '.github/workflows/target.yml':
+        - 'boost-sandbox/lockfile-preview-actions-20261015@main'
 dependencies:
     'boost-sandbox/lockfile-preview-actions-20261015@main':
         ref: 'main'
