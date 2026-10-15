@@ -9,4 +9,5 @@ jobs:
     timeout-minutes: 3
     steps:
       - uses: boost-sandbox/lockfile-preview-actions-20261015/helper@main
+      - uses: boost-sandbox/lockfile-preview-actions-20261015/extra@main
       - run: echo RESEARCH_PROBE_COMPLETE
