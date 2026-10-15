@@ -1,0 +1,11 @@
+name: Imposter commit policy probe
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: boost-sandbox/lockfile-preview-actions-20261015/helper@3fc658a3c4dddeb1a5a04299c3055c12513b2e85
+      - run: echo RESEARCH_PROBE_COMPLETE
