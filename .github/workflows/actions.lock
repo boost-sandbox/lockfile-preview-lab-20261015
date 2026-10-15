@@ -4,7 +4,7 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/imposter-policy.yml':
-        - 'boost-sandbox/lockfile-preview-actions-20261015@3fc658a3c4dddeb1a5a04299c3055c12513b2e85'
+        - 'boost-sandbox/lockfile-preview-actions-20261015@main'
     '.github/workflows/pr.yml':
         - 'boost-sandbox/lockfile-preview-actions-20261015@main'
     '.github/workflows/probe.yml':
@@ -15,7 +15,7 @@ workflows:
 dependencies:
     'boost-sandbox/lockfile-preview-actions-20261015@main':
         ref: 'main'
-        commit: 'sha1-adfe176410cf2cb781876304870a6acd0a6508ce'
+        commit: 'sha1-3fc658a3c4dddeb1a5a04299c3055c12513b2e85'
         owner_id: 105813534
         repo_id: 1421100914
         uses:
