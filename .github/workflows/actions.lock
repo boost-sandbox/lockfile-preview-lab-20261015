@@ -5,6 +5,7 @@ version: 'v0.0.3'
 workflows:
     '.github/workflows/probe.yml':
         - 'boost-sandbox/lockfile-preview-actions-20261015@main'
+        - 'boost-sandbox/lockfile-preview-actions-20261015@moving'
 dependencies:
     'boost-sandbox/lockfile-preview-actions-20261015@main':
         ref: 'main'
@@ -15,6 +16,6 @@ dependencies:
             - 'boost-sandbox/lockfile-preview-actions-20261015@moving'
     'boost-sandbox/lockfile-preview-actions-20261015@moving':
         ref: 'moving'
-        commit: 'sha1-18161c178d0153a1cb0c490c37efd8f3b08ab74d'
+        commit: 'sha1-f9baeee008812ad3ea3e798cac466f7778f5a5a8'
         owner_id: 105813534
         repo_id: 1421100914

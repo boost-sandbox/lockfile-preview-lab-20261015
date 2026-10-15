@@ -12,5 +12,6 @@ jobs:
         run: |
           mkdir -p helper
           echo '{"name":"Workspace marker","runs":{"using":"composite","steps":[{"shell":"bash","run":"echo RESEARCH_WORKSPACE_MARKER"}]}}' > helper/action.yml
-      - uses: boost-sandbox/lockfile-preview-actions-20261015/sibling@main
+      - uses: boost-sandbox/lockfile-preview-actions-20261015/parent@main
+      - uses: boost-sandbox/lockfile-preview-actions-20261015/helper@moving
       - run: echo RESEARCH_PROBE_COMPLETE
