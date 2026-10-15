@@ -18,5 +18,5 @@ jobs:
           RUN_SHA: ${{ github.sha }}
           RUN_REF: ${{ github.ref }}
         run: |
-          echo RESEARCH_BASE_PR
+          echo RESEARCH_FORK_INLINE_CHANGED
           printf '%s\n' "$EVENT" "$WORKFLOW_REF" "$WORKFLOW_SHA" "$RUN_SHA" "$RUN_REF"
