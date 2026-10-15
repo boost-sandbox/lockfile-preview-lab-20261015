@@ -1,0 +1,10 @@
+name: Fork inline only
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  marker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - run: echo RESEARCH_FORK_NEW_INLINE_ONLY
