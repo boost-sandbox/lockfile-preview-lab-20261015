@@ -8,6 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - uses: boost-sandbox/lockfile-preview-actions-20261015/helper@main
-      - uses: boost-sandbox/lockfile-preview-actions-20261015/extra@main
+      - uses: boost-sandbox/lockfile-preview-actions-20261015/parent@main
       - run: echo RESEARCH_PROBE_COMPLETE
